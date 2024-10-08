@@ -6,12 +6,13 @@ console.log (mysteriousString);
 const step1 = mysteriousString.split ('')
 console.log(step1)
 
-const step2 = mysteriousString.slice(14,31);
+const step2 = mysteriousString.slice(15,31);
 console.log(step2);
 
 const step3 = step2.split('');
 console.log(step3);
-step3.splice( 5 , 6 , 't' );
+
+step3.splice(4,2, 't' );
 console.log(step3); 
 
 const step4 = step3.reverse();
